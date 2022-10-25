@@ -1,0 +1,7 @@
+html {
+    color-scheme: dark !important;
+}
+.container {
+  display: grid;
+  place-items: center;
+}
