@@ -5,3 +5,9 @@ html {
   display: grid;
   place-items: center;
 }
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4rem;
+    font-size: 1.12rem;
+  }
