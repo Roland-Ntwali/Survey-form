@@ -11,3 +11,12 @@ label {
     margin-bottom: 0.4rem;
     font-size: 1.12rem;
   }
+
+  #survey-form {
+    padding: 3rem;
+    background: rgba(22, 22, 40, 0.8)
+  }
+  .form-group {
+        margin: 0 auto 1.25rem auto;
+      padding: 0.25rem;
+  }
