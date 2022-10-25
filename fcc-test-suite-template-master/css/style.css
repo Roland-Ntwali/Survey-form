@@ -42,3 +42,11 @@ textarea {
       padding: 0.625rem;
       resize: vertical;
   }
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  .input-radio, .input-checkbox{
+    display: inline-block;
+    margin: 0 0.6rem 0 0;
+  }
