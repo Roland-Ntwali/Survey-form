@@ -50,3 +50,12 @@ textarea {
     display: inline-block;
     margin: 0 0.6rem 0 0;
   }
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 2px;
+    cursor: pointer;
+    color: inherit;
+    background: rgb(44 140 81);
+}
