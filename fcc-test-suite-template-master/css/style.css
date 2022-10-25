@@ -32,3 +32,13 @@ background-clip: padding-box;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+input, select, button {
+    margin: 0;
+    
+  }
+  textarea {
+    min-height: 120px;
+      width: 100%;
+      padding: 0.625rem;
+      resize: vertical;
+  }
