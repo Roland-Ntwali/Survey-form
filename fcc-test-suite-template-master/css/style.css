@@ -36,7 +36,7 @@ input, select, button {
     margin: 0;
     
   }
-  textarea {
+textarea {
     min-height: 120px;
       width: 100%;
       padding: 0.625rem;
