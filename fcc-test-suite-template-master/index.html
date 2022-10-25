@@ -10,9 +10,21 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p>Thank you for taking time to help us improve our platform</p>
-    <Form id="survey-form">
-      <label for="name">Name</label><br>
-      <input type="text" id="name">
-    </Form>
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+        />
+      </div>
+    </form>
   </body>
 </html>
